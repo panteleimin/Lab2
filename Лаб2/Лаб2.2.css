@@ -1,0 +1,35 @@
+
+.seasons {
+  list-style-type: none;
+}
+
+.seasons > li {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #004c80;
+}
+
+.winter {
+  list-style-image: url("pngtree-bright-blue-six-petal-ice-snowflake-bluelight-bluesix-petalsice-png-image_665197.jpg");
+  margin-left: 30px;
+  color: rgb(0, 238, 222);
+}
+
+.spring {
+  list-style-image: url("growth-close-up-environmental-lush-natural_1172-349.png");
+  margin-left: 30px;
+  color: rgb(95, 159, 0);
+}
+
+.summer {
+  list-style-image: url("4-clipart-sun-1.png");
+  margin-left: 30px;
+  color: rgb(214, 189, 0);
+
+}
+
+.autumn {
+  list-style-image: url("images.jpg");
+  margin-left: 30px;
+  color: rgb(221, 129, 0);
+}

@@ -1,0 +1,33 @@
+div{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+li{
+    padding: 10px;
+    list-style: "\2610";
+    list-style-position: inside;
+}
+
+li.check{
+    list-style: "\2611";
+    text-decoration: line-through;
+    list-style-position: inside;
+}
+
+li:nth-child(odd).check{
+    background-color: rgb(191, 191, 191);
+}
+
+li:nth-child(even).check{
+    background-color: rgb(228, 228, 228);
+}
+
+li:nth-child(odd){
+    background-color: rgb(90, 200, 255);
+}
+
+li:nth-child(even){
+    background-color: rgb(44, 185, 255);
+}
